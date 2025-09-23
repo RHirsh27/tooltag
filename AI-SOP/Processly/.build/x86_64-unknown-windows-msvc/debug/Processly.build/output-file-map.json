@@ -1,0 +1,341 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\master.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppRouter.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppTheme.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\BrandConstants.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\FeatureFlags.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\ProcesslyApp.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\ExportHistoryRepository.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\SOPRepository.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\TemplateRepository.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\SeedData.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ChecklistItem.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportFormat.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportRecord.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Recording.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOP.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStatus.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStep.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Template.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\UserPrefs.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\ExportService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\IAPService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\LLMService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\MetricsService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\NetworkMonitor.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PostProcessor.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PromptContract.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\QuotaService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\SpeechService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\TranscriptMockService.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\CaptureView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\PasteTextView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Components\\ToastView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\SOPEditView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\StepRowView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportPreviewView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\FinalizeView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateViewModel.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerationQueue.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\HomeView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\SOPListItemView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\OnboardingView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\PermissionsHelper.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Paywall\\PaywallView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Settings\\SettingsView.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\A11y.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\AppConstants.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Array+Safe.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Date+Extensions.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ErrorTypes.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Haptics.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\JSONSchemaValidator.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\KeychainStore.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\L10n.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ScreenshotHelper.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\DerivedSources\\resource_bundle_accessor.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swiftdeps"
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Processly uses your microphone to capture live process notes so we can transcribe them instantly.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Processly needs speech recognition to turn your voice into step-by-step processes.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Processly</string>
+</dict>
+</plist>

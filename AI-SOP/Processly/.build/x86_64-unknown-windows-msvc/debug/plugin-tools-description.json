@@ -1,0 +1,2547 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.xctest",
+      "packagePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly",
+      "productName" : "ProcesslyPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Resources\\Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Assets.xcassets"
+        }
+      ]
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Base.lproj\\LaunchScreen.storyboard" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Resources\\Base.lproj\\LaunchScreen.storyboard"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Base.lproj\\LaunchScreen.storyboard"
+        }
+      ]
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\Info.plist"
+        }
+      ]
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\en.lproj\\Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Resources\\Localization\\en.lproj\\Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly_Processly.resources\\en.lproj\\Localizable.strings"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "ProcesslyPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Processly-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\sources",
+      "importPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\BrandConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\FeatureFlags.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\ProcesslyApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\ExportHistoryRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\SOPRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\TemplateRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\SeedData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ChecklistItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Recording.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStep.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Template.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\UserPrefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\ExportService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\IAPService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\LLMService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\MetricsService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\NetworkMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PostProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PromptContract.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\QuotaService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\SpeechService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\TranscriptMockService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\CaptureView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\PasteTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Components\\ToastView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\SOPEditView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\StepRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportPreviewView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\FinalizeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerationQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\SOPListItemView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\PermissionsHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Paywall\\PaywallView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Settings\\SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\A11y.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\AppConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Array+Safe.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Date+Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ErrorTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Haptics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\JSONSchemaValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\KeychainStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\L10n.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ScreenshotHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\DerivedSources\\resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Processly-x86_64-unknown-windows-msvc-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Processly",
+      "moduleOutputPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Processly.swiftmodule",
+      "objects" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-static",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "processly"
+      ],
+      "outputFileMapPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Processly.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppRouter.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppTheme.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\BrandConstants.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\FeatureFlags.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\ProcesslyApp.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\ExportHistoryRepository.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\SOPRepository.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\TemplateRepository.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\SeedData.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ChecklistItem.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportFormat.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportRecord.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Recording.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOP.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStatus.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStep.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Template.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\UserPrefs.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\ExportService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\IAPService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\LLMService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\MetricsService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\NetworkMonitor.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PostProcessor.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PromptContract.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\QuotaService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\SpeechService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\TranscriptMockService.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\CaptureView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\PasteTextView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Components\\ToastView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\SOPEditView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\StepRowView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportPreviewView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\FinalizeView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateViewModel.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerationQueue.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\HomeView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\SOPListItemView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\OnboardingView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\PermissionsHelper.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Paywall\\PaywallView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Settings\\SettingsView.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\A11y.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\AppConstants.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Array+Safe.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Date+Extensions.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ErrorTypes.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Haptics.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\JSONSchemaValidator.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\KeychainStore.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\L10n.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ScreenshotHelper.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\DerivedSources\\resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ProcesslyPackageDiscoveredTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\sources",
+      "importPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyUITests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ProcesslyPackageDiscoveredTests",
+      "moduleOutputPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-color-diagnostics",
+        "-sdk",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "processly"
+      ],
+      "outputFileMapPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ProcesslyPackageTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\sources",
+      "importPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyUITests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ProcesslyPackageTests",
+      "moduleOutputPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-color-diagnostics",
+        "-sdk",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "processly"
+      ],
+      "outputFileMapPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift"
+      ],
+      "tempsPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ProcesslyTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\sources",
+      "importPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\AppConstantsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\ExportServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\IAPServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\LLMServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\MetricsServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\PostProcessorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\QuotaServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.exe"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ProcesslyTests",
+      "moduleOutputPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swift.o",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "processly"
+      ],
+      "outputFileMapPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\AppConstantsTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\ExportServiceTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\IAPServiceTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\LLMServiceTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\MetricsServiceTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\PostProcessorTests.swift",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\QuotaServiceTests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ProcesslyUITests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\sources",
+      "importPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\UITests\\ProcesslyUITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.exe"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ProcesslyUITests",
+      "moduleOutputPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyUITests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "processly"
+      ],
+      "outputFileMapPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyUITests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\UITests\\ProcesslyUITests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Processly" : [
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Processly",
+      "-package-name",
+      "processly",
+      "-incremental",
+      "-c",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppRouter.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppTheme.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\BrandConstants.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\FeatureFlags.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\ProcesslyApp.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\ExportHistoryRepository.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\SOPRepository.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\TemplateRepository.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\SeedData.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ChecklistItem.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportFormat.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportRecord.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Recording.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOP.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStatus.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStep.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Template.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\UserPrefs.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\ExportService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\IAPService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\LLMService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\MetricsService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\NetworkMonitor.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PostProcessor.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PromptContract.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\QuotaService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\SpeechService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\TranscriptMockService.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\CaptureView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\PasteTextView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Components\\ToastView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\SOPEditView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\StepRowView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportPreviewView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\FinalizeView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateViewModel.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerationQueue.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\HomeView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\SOPListItemView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\OnboardingView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\PermissionsHelper.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Paywall\\PaywallView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Settings\\SettingsView.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\A11y.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\AppConstants.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Array+Safe.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Date+Extensions.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ErrorTypes.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Haptics.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\JSONSchemaValidator.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\KeychainStore.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\L10n.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ScreenshotHelper.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\DerivedSources\\resource_bundle_accessor.swift",
+      "-I",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-static",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "processly",
+      "-driver-use-frontend-path",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "ProcesslyPackageDiscoveredTests" : [
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "ProcesslyPackageDiscoveredTests",
+      "-package-name",
+      "processly",
+      "-incremental",
+      "-c",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift",
+      "-I",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-color-diagnostics",
+      "-sdk",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "processly",
+      "-driver-use-frontend-path",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "ProcesslyPackageTests" : [
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "ProcesslyPackageTests",
+      "-package-name",
+      "processly",
+      "-incremental",
+      "-c",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift",
+      "-I",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-color-diagnostics",
+      "-sdk",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "processly",
+      "-driver-use-frontend-path",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "ProcesslyTests" : [
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "ProcesslyTests",
+      "-package-name",
+      "processly",
+      "-incremental",
+      "-c",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\AppConstantsTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\ExportServiceTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\IAPServiceTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\LLMServiceTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\MetricsServiceTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\PostProcessorTests.swift",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\QuotaServiceTests.swift",
+      "-I",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "processly",
+      "-driver-use-frontend-path",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "ProcesslyUITests" : [
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "ProcesslyUITests",
+      "-package-name",
+      "processly",
+      "-incremental",
+      "-c",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\UITests\\ProcesslyUITests.swift",
+      "-I",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\XCTest-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Platforms\\6.1.2\\Windows.platform\\Developer\\Library\\Testing-development\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "processly",
+      "-driver-use-frontend-path",
+      "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Processly" : [
+
+    ],
+    "ProcesslyPackageDiscoveredTests" : [
+      "ProcesslyTests",
+      "ProcesslyUITests",
+      "Processly"
+    ],
+    "ProcesslyPackageTests" : [
+      "ProcesslyPackageDiscoveredTests",
+      "ProcesslyTests",
+      "ProcesslyUITests",
+      "Processly"
+    ],
+    "ProcesslyTests" : [
+      "Processly"
+    ],
+    "ProcesslyUITests" : [
+      "Processly"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\ProcesslyPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\AppTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\BrandConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\FeatureFlags.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\App\\ProcesslyApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\ExportHistoryRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\SOPRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\Repositories\\TemplateRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Data\\SeedData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ChecklistItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\ExportRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Recording.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\SOPStep.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\Template.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Models\\UserPrefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\ExportService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\IAPService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\LLMService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\MetricsService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\NetworkMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PostProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\PromptContract.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\QuotaService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\SpeechService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Domain\\Services\\TranscriptMockService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\CaptureView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Capture\\PasteTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Components\\ToastView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\SOPEditView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Editor\\StepRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportPreviewView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\ExportView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\FinalizeExport\\FinalizeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerateViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Generate\\GenerationQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Home\\SOPListItemView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Onboarding\\PermissionsHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Paywall\\PaywallView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\UI\\Settings\\SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\A11y.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\AppConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Array+Safe.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Date+Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ErrorTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\Haptics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\JSONSchemaValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\KeychainStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\L10n.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Sources\\Utilities\\ScreenshotHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\DerivedSources\\resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\sources"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.product\\Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Processly.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.product\\Objects.LinkFileList"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\sources"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\sources"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.product\\Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\A11y.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppRouter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\AppTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Array+Safe.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\BrandConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\CaptureView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ChecklistItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Date+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ErrorTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportFormat.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportHistoryRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportPreviewView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ExportView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FeatureFlags.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\FinalizeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerateViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\GenerationQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Haptics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\HomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\IAPService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\JSONSchemaValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\KeychainStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\L10n.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\LLMService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\MetricsService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\OnboardingView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PasteTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PaywallView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PermissionsHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Processly.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ProcesslyApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\PromptContract.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\QuotaService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Recording.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOP.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPEditView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPListItemView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SOPStep.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ScreenshotHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SeedData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\SpeechService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\StepRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\Template.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TemplateRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\ToastView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\TranscriptMockService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\UserPrefs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\Processly.build\\resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\ProcesslyPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ProcesslyTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swiftmodule.o"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.product\\Objects.LinkFileList"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\AppConstantsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\ExportServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\IAPServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\LLMServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\MetricsServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\PostProcessorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\QuotaServiceTests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\sources"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\UITests\\ProcesslyUITests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\sources"
+    },
+    "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\rhblu\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.1.2+Asserts\\usr\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1EC6E9F1B9D53381.txt"
+    }
+  }
+}

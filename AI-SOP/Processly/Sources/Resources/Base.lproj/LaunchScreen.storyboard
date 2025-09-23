@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE storyboard PUBLIC "-//Apple//DTD DOCUMENT 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<storyboard version="1.0" toolsVersion="20002" targetRuntime="iOS.CocoaTouch" initialViewController="LaunchScreen">
+    <scenes>
+        <!--Launch Screen-->
+        <scene sceneID="LaunchScene">
+            <objects>
+                <viewController storyboardIdentifier="LaunchScreen" id="LaunchScreen" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LaunchView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" contentMode="center" text="Processly" textAlignment="center" adjustsFontForContentSizeCategory="YES" numberOfLines="0" id="LaunchLabel">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="LaunchLabel" firstAttribute="centerX" secondItem="LaunchView" secondAttribute="centerX" id="centerX"/>
+                            <constraint firstItem="LaunchLabel" firstAttribute="centerY" secondItem="LaunchView" secondAttribute="centerY" id="centerY"/>
+                            <constraint firstAttribute="leading" secondItem="LaunchLabel" secondAttribute="leading" constant="16" priority="999" id="leading"/>
+                            <constraint firstItem="LaunchLabel" firstAttribute="trailing" secondItem="LaunchView" secondAttribute="trailing" constant="16" priority="999" id="trailing"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</storyboard>

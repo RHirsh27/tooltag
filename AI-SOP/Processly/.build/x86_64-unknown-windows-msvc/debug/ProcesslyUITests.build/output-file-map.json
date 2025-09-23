@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\master.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\UITests\\ProcesslyUITests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyUITests.build\\ProcesslyUITests.swiftdeps"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\master.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\AppConstantsTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\AppConstantsTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\ExportServiceTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\ExportServiceTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\IAPServiceTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\IAPServiceTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\LLMServiceTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\LLMServiceTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\MetricsServiceTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\MetricsServiceTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\PostProcessorTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\PostProcessorTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\Tests\\Unit\\QuotaServiceTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyTests.build\\QuotaServiceTests.swiftdeps"
+  }
+}

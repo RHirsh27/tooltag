@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\master.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.derived\\runner.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageTests.build\\runner.swiftdeps"
+  }
+}

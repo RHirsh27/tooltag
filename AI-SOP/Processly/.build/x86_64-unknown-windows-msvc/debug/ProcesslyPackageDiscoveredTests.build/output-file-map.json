@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\master.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyTests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyTests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\ProcesslyUITests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\ProcesslyUITests.swiftdeps"
+  },
+  "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.derived\\all-discovered-tests.swift": {
+    "dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.d",
+    "object": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.swift.o",
+    "swiftmodule": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\rhblu\\AI-SOP\\Processly\\.build\\x86_64-unknown-windows-msvc\\debug\\ProcesslyPackageDiscoveredTests.build\\all-discovered-tests.swiftdeps"
+  }
+}

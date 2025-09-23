@@ -1,0 +1,191 @@
+﻿"home.title" = "Processly";
+"home.welcome" = "Welcome back";
+"home.subtitle" = "Create or refine your processes";
+"home.record.cta" = "Record";
+"home.record.hint" = "Start recording a new process";
+"home.paste.cta" = "Paste Text";
+"home.paste.hint" = "Paste existing notes to structure them";
+"home.empty.message" = "No processes yet. Start by recording or pasting text.";
+
+"onboarding.page1.title" = "Turn notes into processes";
+"onboarding.page1.subtitle" = "Capture voice or paste text, then let Processly structure it.";
+"onboarding.page2.title" = "Edit with confidence";
+"onboarding.page2.subtitle" = "Review AI output, tweak steps, and keep everything organized.";
+"onboarding.page3.title" = "Export when ready";
+"onboarding.page3.subtitle" = "Finalize with quotas managed, export to PDF, DOCX, or Markdown.";
+"onboarding.next" = "Next";
+"onboarding.get_started" = "Get Started";
+"onboarding.learn_about_pro" = "Learn about Pro";
+
+"capture.title" = "Capture";
+"capture.prompt" = "Tap record to start capturing.";
+"capture.recording.label" = "Record";
+"capture.stop.label" = "Stop";
+"capture.generate_cta" = "Generate Process";
+"capture.record.hint" = "Double tap to start recording";
+"capture.generate_hint" = "Generate a structured process from the captured transcript";
+
+"paste.title" = "Paste Text";
+"paste.title_hint_placeholder" = "Optional title hint";
+"paste.text_placeholder" = "Paste or type your process notes here";
+"paste.generate_cta" = "Generate Process";
+"paste.generate_hint" = "Generate a structured process from the pasted text";
+
+"generate.title" = "Generate";
+"generate.generating" = "Generating Process...";
+"generate.success_prefix" = "Generated";
+"generate.continue_edit" = "Continue to Edit";
+"generate.retry" = "Retry";
+"generate.failure" = "We couldn’t validate the generated process. Please retry.";
+
+"edit.title" = "Edit Process";
+"edit.section.title" = "Title";
+"edit.section.summary" = "Summary";
+"edit.section.tools" = "Tools";
+"edit.section.steps" = "Steps";
+"edit.add_step" = "Add Step";
+"edit.error_message" = "Something went wrong. Try again.";
+"edit.tool_placeholder" = "Add tool";
+"edit.notes_placeholder" = "Notes";
+"edit.minutes_placeholder" = "Estimated minutes";
+"a11y.edit.add_step" = "Add a new step";
+
+"finalize.title" = "Finalize";
+"finalize.prompt" = "Finalizing locks edits and counts toward your quota.";
+"finalize.quota_remaining" = "Remaining quota: %d of 5";
+"finalize.unlimited" = "Unlimited finalizations active.";
+"finalize.button" = "Finalize Process";
+"finalize.toast" = "Process finalized.";
+"finalize.quota_toast" = "You’ve reached the free finalize limit.";
+"a11y.finalize.button_hint" = "Locks the process and counts toward quota";
+
+"export.title" = "Export";
+"export.format" = "Format";
+"export.button" = "Export";
+"export.markdown.message" = "Markdown export ready for sharing.";
+"export.docx.message" = "DOCX export ready for sharing.";
+"export.share" = "Share";
+"export.premium_toast" = "Upgrade to export DOCX or Markdown.";
+"a11y.export.button_hint" = "Select an export format";
+"a11y.share.button_hint" = "Open the share sheet";
+
+"paywall.title" = "Upgrade to %1$@";
+"paywall.subtitle" = "Unlock unlimited finalizations, premium exports, and watermarks removed.";
+"paywall.restore" = "Restore Purchases";
+"paywall.close" = "Close";
+"a11y.paywall.close_hint" = "Dismiss the paywall";
+
+"settings.title" = "Settings";
+"settings.account" = "Account";
+"settings.analytics_optin" = "Share anonymized analytics";
+"settings.plan.pro" = "Processly Pro";
+"settings.plan.free" = "Free Plan";
+"settings.ai_disclosure" = "Your audio/text may be sent to a third-party AI for processing. Data is not stored by default.";
+"settings.defaults" = "Defaults";
+"settings.quota" = "Quota";
+"settings.support" = "Support";
+"settings.legal" = "Legal";
+"settings.manage_subscription" = "Manage Subscription";
+"settings.open_ios" = "Open iOS Settings";
+"settings.privacy_policy" = "Privacy Policy";
+"settings.terms" = "Terms of Service";
+"settings.keychain" = "Processly stores keys securely on-device in the iOS Keychain.";
+"settings.api_key_field" = "Enter API Key";
+"settings.show_key" = "Show Key";
+"settings.save_key" = "Save API Key";
+"settings.remove_key" = "Remove";
+"settings.api_key_saved" = "API key saved.";
+"settings.api_key_removed" = "API key removed.";
+
+"toast.quota_exceeded" = "You’ve reached the free finalize limit.";
+"toast.generation_failure" = "There was a problem generating your process.";
+
+"generate.continue_edit.hint" = "Continue editing the generated process";
+"capture.recording.label" = "Record";
+"capture.stop.label" = "Stop";
+
+"screenshot.title.capture" = "Capture";
+"screenshot.title.generate" = "Generate";
+"screenshot.title.edit" = "Edit";
+"screenshot.title.finalize" = "Finalize";
+"screenshot.title.export" = "Export";
+"screenshot.subtitle.capture" = "Capture live transcription";
+"screenshot.subtitle.generate" = "AI structuring in progress";
+"screenshot.subtitle.edit" = "Fine-tune steps and tools";
+"screenshot.subtitle.finalize" = "Finalize with quotas managed";
+"screenshot.subtitle.export" = "Preview exports without watermarks";
+
+"a11y.capture.generate_hint" = "Generate a process from the captured transcript";
+"a11y.paste.generate_hint" = "Generate a process from pasted notes";
+"edit.title_placeholder" = "Title";
+
+
+"edit.summary_placeholder" = "Summary";
+
+
+"edit.add_tag" = "Add";
+"edit.step.instruction" = "Instruction";
+
+
+"edit.step.notes" = "Notes";
+
+
+"edit.step.minutes" = "Estimated minutes";
+
+"a11y.capture.record.label" = "Record";
+"a11y.capture.record.hint" = "Start or stop voice capture.";
+"a11y.capture.generate.hint" = "Turn transcript into steps.";
+"a11y.capture.level.label" = "Audio level";
+
+
+"generate.cancel" = "Cancel";
+"a11y.generate.progress.label" = "Generating process";
+"a11y.generate.progress.hint" = "Please wait.";
+"a11y.generate.retry.label" = "Retry generation";
+"a11y.generate.cancel.label" = "Cancel";
+
+
+"edit.step.delete_button" = "Delete";
+"a11y.edit.steps.label" = "Steps list";
+"a11y.edit.step.label" = "Step %d";
+"a11y.edit.step.move_up" = "Move Up";
+"a11y.edit.step.move_down" = "Move Down";
+"a11y.edit.step.delete" = "Delete step %d";
+"a11y.edit.add.label" = "Add step";
+
+"finalize.nav.title" = "Finalize";
+"finalize.title.prompt" = "Finalize %@?";
+"finalize.subtitle" = "Finalizing locks edits and counts toward your quota.";
+"finalize.quota.remaining" = "Remaining quota: %d of 5";
+"finalize.quota.unlimited" = "Unlimited finalizations active.";
+"finalize.quota.blocked" = "You've reached the free finalize limit. Upgrade to Processly Pro for unlimited finalizations.";
+"a11y.finalize.quota.label" = "Free limit reached";
+"finalize.upgrade.cta" = "Upgrade to Processly Pro";
+"a11y.finalize.paywall.label" = "Upgrade to Processly Pro";
+"finalize.cta.title" = "Finalize";
+"a11y.finalize.cta.label" = "Finalize";
+"a11y.finalize.cta.hint" = "Lock this process and prepare it for export.";
+"finalize.toast.quota" = "You've reached the free finalize limit.";
+"finalize.toast.success" = "SOP finalized.";
+"paywall.a11y.close" = "Close";
+"paywall.a11y.buy.monthly" = "Subscribe monthly";
+"paywall.a11y.buy.yearly" = "Subscribe yearly";
+"paywall.a11y.buy.generic" = "Subscribe";
+"paywall.a11y.restore" = "Restore purchases";
+"a11y.export.preview.label" = "Export preview";
+"export.format.label" = "Export format";
+"a11y.export.format.label" = "Export format: %@";
+"a11y.export.cta.label" = "Export";
+"a11y.export.cta.hint" = "Share the finished process.";
+"a11y.export.watermark.label" = "Watermark visible on free plan";
+"export.cta.title" = "Export";
+"export.watermark.notice" = "Exports include a Processly watermark on the free plan.";
+
+"export.format.caption" = "Format: %@";
+
+"settings.a11y.analytics.hint" = "Turn anonymous analytics on or off.";
+
+"home.record.button" = "Record";
+"home.paste.button" = "Paste text";
+"home.recent.label" = "Recent processes";
+"onboarding.continue.label" = "Continue";
