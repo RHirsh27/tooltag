@@ -4,6 +4,9 @@ Branch: processly-ios-mvp
 
 ## What changed
 - Files:
+  - Sources/UI/TabView.swift - New tab-based navigation with 4 tabs (SOPs, Templates, Record, Settings)
+  - Sources/App/ProcesslyApp.swift - Updated to use MainTabView and include all new models in schema
+  - Sources/UI/Home/HomeView.swift - Removed settings toolbar (now in tab navigation)
   - Sources/Domain/Models/SOP.swift - Updated to match specification with new fields
   - Sources/Domain/Models/SOPStep.swift - Converted to SwiftData @Model with relationships
   - Sources/Domain/Models/ChecklistItem.swift - New model for step checklist items
@@ -11,9 +14,9 @@ Branch: processly-ios-mvp
   - Sources/Domain/Models/Recording.swift - New model for voice recordings
   - Sources/Domain/Models/ExportRecord.swift - New model for export history
   - Package.swift - Fixed resource configuration and added defaultLocalization
-- Reason: Align data model with iOS MVP specification to support template system, recording management, and enhanced SOP features
-- Tests added/updated: None (model changes only)
+- Reason: Implement tab-based navigation structure and complete data model alignment for iOS MVP
+- Tests added/updated: None (UI structure changes only)
 
 ## Notes
 - Open questions / blockers: SwiftUI not available on Windows, cannot build/test on current platform
-- Next: Need to implement tab navigation structure to replace single-view navigation
+- Next: Need to implement template duplication functionality and enhance SOP builder

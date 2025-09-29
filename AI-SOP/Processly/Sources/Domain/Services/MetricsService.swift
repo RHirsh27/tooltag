@@ -9,6 +9,10 @@ enum MetricsEvent: String {
     case onboarding_complete
     case first_finalize
     case gen_latency
+    case template_created
+    case template_duplicated
+    case template_deleted
+    case capture_started
 }
 
 struct MetricsService {
@@ -67,5 +71,42 @@ struct MetricsService {
     static func genLatency(p50: Double, p90: Double) {
         log(.gen_latency, properties: ["p50": p50, "p90": p90])
     }
+    
+    static func templateCreated() {
+        log(.template_created)
+    }
+    
+    static func templateDuplicated() {
+        log(.template_duplicated)
+    }
+    
+    static func templateDeleted() {
+        log(.template_deleted)
+    }
+    
+    static func captureStarted(mode: String) {
+        log(.capture_started, properties: ["mode": mode])
+    }
+}
+
+// MARK: - Console Metrics Service
+protocol MetricsReporter {
+    func track(event: MetricsEvent, properties: [String: Any]? = nil)
+}
+
+@MainActor
+final class ConsoleMetricsService: ObservableObject, MetricsReporter {
+    func track(event: MetricsEvent, properties: [String: Any]? = nil) {
+        MetricsService.log(event, properties: properties)
+    }
+}
+
+// MARK: - Metrics Event Extensions
+extension MetricsEvent {
+    var appLaunch: MetricsEvent { .app_launch }
+    var templateCreated: MetricsEvent { .template_created }
+    var templateDuplicated: MetricsEvent { .template_duplicated }
+    var templateDeleted: MetricsEvent { .template_deleted }
+    var captureStarted: MetricsEvent { .capture_started }
 }
 
