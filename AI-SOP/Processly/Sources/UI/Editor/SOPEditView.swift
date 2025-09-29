@@ -42,20 +42,32 @@ struct SOPEditView: View {
                     .onChange(of: binding.summary) { _ in updateTimestamp() }
             }
             Section(L10n.Edit.sectionTools) {
-                TagEditor(tags: $binding.tools)
+                TagEditor(tags: $binding.tags)
             }
             Section(L10n.Edit.sectionSteps) {
                 ForEach(Array(binding.steps.enumerated()), id: \.element.id) { index, _ in
                     VStack(alignment: .leading, spacing: 12) {
-                        StepRowView(step: $binding.steps[index])
                         HStack {
+                            // Drag handle
+                            Image(systemName: "line.3.horizontal")
+                                .foregroundColor(.secondary)
+                                .font(.caption)
+                            
+                            // Step number
+                            Text("\(index + 1)")
+                                .font(.headline)
+                                .foregroundColor(.accentColor)
+                                .frame(width: 24)
+                            
                             Spacer()
+                            
+                            // Delete button
                             Button(role: .destructive) {
                                 binding.steps.remove(at: index)
                                 renumberSteps(binding: &binding)
                                 updateTimestamp()
                             } label: {
-                                Label(String(localized: "edit.step.delete_button"), systemImage: "trash")
+                                Image(systemName: "trash")
                             }
                             .buttonStyle(.borderless)
                             .a11y(
@@ -64,6 +76,8 @@ struct SOPEditView: View {
                                 traits: .button
                             )
                         }
+                        
+                        StepRowView(step: $binding.steps[index])
                     }
                     .padding(.vertical, 8)
                     .a11y(
@@ -83,9 +97,11 @@ struct SOPEditView: View {
                         }
                     }
                 }
+                .onMove(perform: moveSteps)
+                
                 Button(L10n.Edit.addTag) {
                     let next = binding.steps.count + 1
-                    binding.steps.append(SOPStep(number: next, instruction: ""))
+                    binding.steps.append(SOPStep(order: next, title: ""))
                     updateTimestamp()
                 }
                 .buttonStyle(.borderedProminent)
@@ -124,8 +140,14 @@ struct SOPEditView: View {
 
     private func renumberSteps(binding: inout SOP) {
         for index in binding.steps.indices {
-            binding.steps[index].number = index + 1
+            binding.steps[index].order = index + 1
         }
+    }
+    
+    private func moveSteps(from source: IndexSet, to destination: Int) {
+        binding.steps.move(fromOffsets: source, toOffset: destination)
+        renumberSteps(binding: &binding)
+        updateTimestamp()
     }
 
     private func moveStepUp(binding: inout SOP, index: Int) {

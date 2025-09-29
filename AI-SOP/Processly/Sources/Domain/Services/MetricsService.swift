@@ -13,6 +13,7 @@ enum MetricsEvent: String {
     case template_duplicated
     case template_deleted
     case capture_started
+    case sop_edited
 }
 
 struct MetricsService {
@@ -87,6 +88,10 @@ struct MetricsService {
     static func captureStarted(mode: String) {
         log(.capture_started, properties: ["mode": mode])
     }
+    
+    static func sopEdited() {
+        log(.sop_edited)
+    }
 }
 
 // MARK: - Console Metrics Service
@@ -108,5 +113,6 @@ extension MetricsEvent {
     var templateDuplicated: MetricsEvent { .template_duplicated }
     var templateDeleted: MetricsEvent { .template_deleted }
     var captureStarted: MetricsEvent { .capture_started }
+    var sopEdited: MetricsEvent { .sop_edited }
 }
 
