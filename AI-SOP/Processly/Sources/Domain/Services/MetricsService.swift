@@ -14,6 +14,9 @@ enum MetricsEvent: String {
     case template_deleted
     case capture_started
     case sop_edited
+    case sop_generated
+    case generation_latency_sample
+    case error
 }
 
 struct MetricsService {
@@ -92,6 +95,18 @@ struct MetricsService {
     static func sopEdited() {
         log(.sop_edited)
     }
+    
+    static func sopGenerated(tokensIn: Int, steps: Int) {
+        log(.sop_generated, properties: ["tokens_in": tokensIn, "steps": steps])
+    }
+    
+    static func generationLatencySample(milliseconds: Double) {
+        log(.generation_latency_sample, properties: ["latency_ms": milliseconds])
+    }
+    
+    static func error(type: String, context: String) {
+        log(.error, properties: ["error_type": type, "context": context])
+    }
 }
 
 // MARK: - Console Metrics Service
@@ -114,5 +129,8 @@ extension MetricsEvent {
     var templateDeleted: MetricsEvent { .template_deleted }
     var captureStarted: MetricsEvent { .capture_started }
     var sopEdited: MetricsEvent { .sop_edited }
+    var sopGenerated: MetricsEvent { .sop_generated }
+    var generationLatencySample: MetricsEvent { .generation_latency_sample }
+    var error: MetricsEvent { .error }
 }
 

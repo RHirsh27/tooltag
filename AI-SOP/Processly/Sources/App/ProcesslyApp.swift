@@ -101,7 +101,7 @@ final class AppDependencyContainer: ObservableObject {
     let router = AppRouter()
     let metrics = ConsoleMetricsService()
     let speechService: any SpeechService
-    let llmService: DefaultLLMService
+    let llmService: EnhancedLLMService
     let quotaService: QuotaService
     let exportService: ExportService
     let iapService: IAPService
@@ -117,7 +117,7 @@ final class AppDependencyContainer: ObservableObject {
         } else {
             speechService = DefaultSpeechService(metrics: metrics)
         }
-        llmService = DefaultLLMService(metrics: metrics)
+        llmService = EnhancedLLMService(metrics: metrics)
         quotaService = QuotaService(metrics: metrics)
         exportService = ExportService(metrics: metrics)
         iapService = IAPService(metrics: metrics)

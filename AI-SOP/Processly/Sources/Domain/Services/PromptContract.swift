@@ -36,6 +36,14 @@ enum PromptContract {
     }
 }
 
+struct PromptPayload: Codable {
+    let raw_text: String
+    let title_hint: String?
+    let include_tools: Bool
+    let max_steps: Int
+    let tone: String
+}
+
 struct PromptResponse: Codable {
     let title: String
     let summary: String

@@ -5,6 +5,7 @@ import Security
 enum KeychainStore {
     enum Key {
         static let llmAPIKey = "com.processly.llm.api_key"
+        static let anthropicAPIKey = "com.processly.anthropic.api_key"
     }
 
     static func string(for key: String) -> String? {

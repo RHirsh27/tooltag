@@ -19,6 +19,7 @@ struct SettingsView: View {
     @State private var micPermission: AVAudioSession.RecordPermission = .undetermined
     @State private var speechPermission: SFSpeechRecognizerAuthorizationStatus = .notDetermined
     @State private var showingHelpSheet = false
+    @State private var selectedProvider: LLMProvider = .openai
 
     var body: some View {
         Form {
@@ -34,8 +35,8 @@ struct SettingsView: View {
         .onAppear {
             ensurePrefs()
             MetricsService.configure(defaultEnabled: prefs.first?.analyticsEnabled ?? true)
-            keyDraft = KeychainStore.string(for: KeychainStore.Key.llmAPIKey) ?? ""
-            apiKey = KeychainStore.string(for: KeychainStore.Key.llmAPIKey) ?? ""
+            selectedProvider = dependencies.llmService.activeProvider
+            loadAPIKey()
             refreshPermissions()
         }
         .onChange(of: scenePhase) { phase in
@@ -103,12 +104,28 @@ struct SettingsView: View {
 
     private var aiProviderSection: some View {
         Section(Text("AI Provider", comment: "AI provider section title")) {
+            // Provider Selection
+            Picker("Provider", selection: $selectedProvider) {
+                ForEach(LLMProvider.allCases, id: \.self) { provider in
+                    Text(provider.displayName).tag(provider)
+                }
+            }
+            .pickerStyle(.segmented)
+            .onChange(of: selectedProvider) { _ in
+                dependencies.llmService.activeProvider = selectedProvider
+                loadAPIKey()
+            }
+            
+            // Model Selection
+            Picker("Model", selection: $dependencies.llmService.activeModel) {
+                ForEach(LLMModel.allCases, id: \.self) { model in
+                    Text(model.rawValue).tag(model)
+                }
+            }
+            .pickerStyle(.menu)
+            
+            // API Key Input
             VStack(alignment: .leading, spacing: 8) {
-                SecureField("API Key", text: $keyDraft)
-                    .textContentType(.password)
-                    .autocorrectionDisabled(true)
-                    .textInputAutocapitalization(.never)
-                
                 if isAPIKeyVisible {
                     TextField(NSLocalizedString("Enter API Key", comment: "API key text field"), text: $apiKey)
                         .textContentType(.password)
@@ -125,22 +142,25 @@ struct SettingsView: View {
             }
             .accessibilityElement(children: .combine)
 
+            // Action Buttons
             HStack {
                 Button(NSLocalizedString("Save API Key", comment: "Save API key button")) {
                     saveAPIKey()
                     keyDraft = apiKey
                 }
                 .buttonStyle(.borderedProminent)
-                .disabled(keyDraft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                .disabled(apiKey.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 .accessibilityHint(Text("Stores your key securely in the Keychain.", comment: "Save key hint"))
 
                 Button(NSLocalizedString("Remove", comment: "Remove API key button"), role: .destructive) {
                     removeAPIKey()
+                    apiKey = ""
                     keyDraft = ""
                 }
-                .disabled(keyDraft.isEmpty)
+                .disabled(apiKey.isEmpty)
             }
 
+            // Help Text
             Text("Processly stores keys securely on-device in the iOS Keychain.", comment: "Keychain storage description")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
@@ -217,16 +237,46 @@ struct SettingsView: View {
         }
     }
 
+    private func loadAPIKey() {
+        let key: String
+        switch selectedProvider {
+        case .openai:
+            key = KeychainStore.string(for: KeychainStore.Key.llmAPIKey) ?? ""
+        case .anthropic:
+            key = KeychainStore.string(for: KeychainStore.Key.anthropicAPIKey) ?? ""
+        }
+        apiKey = key
+        keyDraft = key
+    }
+    
     private func saveAPIKey() {
-        let trimmed = keyDraft.trimmingCharacters(in: .whitespacesAndNewlines)
+        let trimmed = apiKey.trimmingCharacters(in: .whitespacesAndNewlines)
         guard trimmed.isEmpty == false else { return }
-        KeychainStore.setString(trimmed, for: KeychainStore.Key.llmAPIKey)
+        
+        let key: KeychainStore.Key
+        switch selectedProvider {
+        case .openai:
+            key = .llmAPIKey
+        case .anthropic:
+            key = .anthropicAPIKey
+        }
+        
+        KeychainStore.setString(trimmed, for: key)
         apiKey = trimmed
+        keyDraft = trimmed
         toastMessage = NSLocalizedString("API key saved.", comment: "API key saved toast")
     }
 
     private func removeAPIKey() {
-        KeychainStore.removeString(for: KeychainStore.Key.llmAPIKey)
+        let key: KeychainStore.Key
+        switch selectedProvider {
+        case .openai:
+            key = .llmAPIKey
+        case .anthropic:
+            key = .anthropicAPIKey
+        }
+        
+        KeychainStore.removeString(for: key)
         apiKey = ""
         keyDraft = ""
         toastMessage = NSLocalizedString("API key removed.", comment: "API key removed toast")
