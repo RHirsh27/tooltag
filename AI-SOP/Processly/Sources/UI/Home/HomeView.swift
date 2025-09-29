@@ -19,13 +19,6 @@ struct HomeView: View {
         }
         .padding()
         .navigationTitle(L10n.Home.title)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button { dependencies.router.push(.settings) } label: {
-                    Image(systemName: "gearshape")
-                }
-            }
-        }
     }
 
     private var header: some View {

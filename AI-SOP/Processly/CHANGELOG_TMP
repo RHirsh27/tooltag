@@ -1,0 +1,19 @@
+# Cursor Cycle Summary
+Date: 2024-12-19
+Branch: processly-ios-mvp
+
+## What changed
+- Files:
+  - Sources/Domain/Models/SOP.swift - Updated to match specification with new fields
+  - Sources/Domain/Models/SOPStep.swift - Converted to SwiftData @Model with relationships
+  - Sources/Domain/Models/ChecklistItem.swift - New model for step checklist items
+  - Sources/Domain/Models/Template.swift - New model for SOP templates
+  - Sources/Domain/Models/Recording.swift - New model for voice recordings
+  - Sources/Domain/Models/ExportRecord.swift - New model for export history
+  - Package.swift - Fixed resource configuration and added defaultLocalization
+- Reason: Align data model with iOS MVP specification to support template system, recording management, and enhanced SOP features
+- Tests added/updated: None (model changes only)
+
+## Notes
+- Open questions / blockers: SwiftUI not available on Windows, cannot build/test on current platform
+- Next: Need to implement tab navigation structure to replace single-view navigation
