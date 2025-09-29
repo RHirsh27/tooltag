@@ -13,6 +13,8 @@ struct ExportPreviewView: View {
     @State private var isExporting = false
     @State private var exportError: String?
     @State private var showingQuickLook = false
+    @State private var showingShareSheet = false
+    @State private var currentExportURL: URL?
     
     init(sop: SOP, fileURL: URL, format: ExportFormat, showsWatermark: Bool) {
         self.sop = sop
@@ -20,6 +22,7 @@ struct ExportPreviewView: View {
         self.format = format
         self.showsWatermark = showsWatermark
         self._selectedFormat = State(initialValue: format)
+        self._currentExportURL = State(initialValue: fileURL)
     }
 
     var body: some View {
@@ -46,6 +49,12 @@ struct ExportPreviewView: View {
             ToolbarItem(placement: .cancellationAction) {
                 Button("Done") {
                     dependencies.router.pop()
+                }
+            }
+            
+            ToolbarItem(placement: .primaryAction) {
+                if let currentExportURL = currentExportURL {
+                    ShareButton.shareFile(currentExportURL)
                 }
             }
         }
@@ -112,12 +121,12 @@ struct ExportPreviewView: View {
         
         do {
             let includeWatermark = !iapService.hasAccess(.exportPremium)
-            let _ = try await dependencies.exportService.export(
+            let newURL = try await dependencies.exportService.export(
                 sop: sop,
                 format: selectedFormat,
                 includeWatermark: includeWatermark
             )
-            // Handle successful export
+            currentExportURL = newURL
         } catch {
             exportError = error.localizedDescription
         }

@@ -164,6 +164,8 @@ struct TemplateRowView: View {
     @EnvironmentObject private var dependencies: AppDependencyContainer
     @Environment(\.modelContext) private var context
     @State private var isDuplicating = false
+    @State private var showingShareSheet = false
+    @State private var exportedURL: URL?
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -171,14 +173,28 @@ struct TemplateRowView: View {
                 Text(template.name)
                     .font(.headline)
                 Spacer()
-                Button("Duplicate") {
-                    Task {
-                        await duplicateTemplate()
+                
+                HStack(spacing: 8) {
+                    Button {
+                        Task {
+                            await shareTemplate()
+                        }
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.caption)
                     }
+                    .buttonStyle(.bordered)
+                    .controlSize(.small)
+                    
+                    Button("Duplicate") {
+                        Task {
+                            await duplicateTemplate()
+                        }
+                    }
+                    .buttonStyle(.bordered)
+                    .controlSize(.small)
+                    .disabled(isDuplicating)
                 }
-                .buttonStyle(.bordered)
-                .controlSize(.small)
-                .disabled(isDuplicating)
             }
             
             if let description = template.description {
@@ -207,6 +223,11 @@ struct TemplateRowView: View {
             }
         }
         .padding(.vertical, 4)
+        .sheet(isPresented: $showingShareSheet) {
+            if let url = exportedURL {
+                ShareSheet.shareFile(url)
+            }
+        }
     }
     
     private func duplicateTemplate() async {
@@ -223,6 +244,21 @@ struct TemplateRowView: View {
             dependencies.router.push(.edit(sopID: newSOP.persistentModelID))
         } catch {
             dependencies.presentToast("Failed to duplicate template: \(error.localizedDescription)")
+        }
+    }
+    
+    private func shareTemplate() async {
+        do {
+            // Export the template's SOP as PDF for sharing
+            let url = try await dependencies.exportService.export(
+                sop: template.sopDraft,
+                format: .pdf,
+                includeWatermark: true // Use watermark for template sharing
+            )
+            exportedURL = url
+            showingShareSheet = true
+        } catch {
+            dependencies.presentToast("Failed to export template for sharing: \(error.localizedDescription)")
         }
     }
 }
