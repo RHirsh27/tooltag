@@ -66,6 +66,7 @@ struct SOPEditView: View {
                                 binding.steps.remove(at: index)
                                 renumberSteps(binding: &binding)
                                 updateTimestamp()
+                                dependencies.metrics.track(event: .stepDeleted)
                             } label: {
                                 Image(systemName: "trash")
                             }
@@ -148,6 +149,7 @@ struct SOPEditView: View {
         binding.steps.move(fromOffsets: source, toOffset: destination)
         renumberSteps(binding: &binding)
         updateTimestamp()
+        dependencies.metrics.track(event: .stepReordered)
     }
 
     private func moveStepUp(binding: inout SOP, index: Int) {

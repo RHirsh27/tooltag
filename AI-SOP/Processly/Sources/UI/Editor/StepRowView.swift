@@ -197,12 +197,16 @@ struct ChecklistEditorView: View {
         let item = ChecklistItem(text: text, isRequired: newItemRequired)
         step.checklistItems.append(item)
         
+        // Track analytics
+        dependencies.metrics.track(event: .checklistItemAdded)
+        
         newItemText = ""
         newItemRequired = false
     }
     
     private func deleteItem(_ item: ChecklistItem) {
         step.checklistItems.removeAll { $0.id == item.id }
+        dependencies.metrics.track(event: .checklistItemRemoved)
     }
     
     private func moveItems(from source: IndexSet, to destination: Int) {

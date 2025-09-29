@@ -55,21 +55,28 @@ extension ShareSheet {
 struct ShareButton: View {
     let items: [Any]
     let applicationActivities: [UIActivity]?
+    let shareType: String
+    @EnvironmentObject private var dependencies: AppDependencyContainer
     @State private var showingShareSheet = false
     
-    init(items: [Any], applicationActivities: [UIActivity]? = nil) {
+    init(items: [Any], applicationActivities: [UIActivity]? = nil, shareType: String = "file") {
         self.items = items
         self.applicationActivities = applicationActivities
+        self.shareType = shareType
     }
     
     var body: some View {
         Button {
+            dependencies.metrics.track(event: .shareInitiated, properties: ["type": shareType])
             showingShareSheet = true
         } label: {
             Label("Share", systemImage: "square.and.arrow.up")
         }
         .sheet(isPresented: $showingShareSheet) {
             ShareSheet(items: items, applicationActivities: applicationActivities)
+                .onAppear {
+                    dependencies.metrics.track(event: .shareCompleted, properties: ["type": shareType])
+                }
         }
     }
 }

@@ -38,6 +38,7 @@ struct SettingsView: View {
             selectedProvider = dependencies.llmService.activeProvider
             loadAPIKey()
             refreshPermissions()
+            dependencies.metrics.track(event: .settingsOpened)
         }
         .onChange(of: scenePhase) { phase in
             if phase == .active {
@@ -47,6 +48,11 @@ struct SettingsView: View {
         .toast(message: $toastMessage)
         .sheet(isPresented: $showingHelpSheet) {
             HelpSheet()
+        }
+        .onChange(of: showingHelpSheet) { isShowing in
+            if isShowing {
+                dependencies.metrics.track(event: .helpViewed)
+            }
         }
     }
 

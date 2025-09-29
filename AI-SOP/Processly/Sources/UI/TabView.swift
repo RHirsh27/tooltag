@@ -81,6 +81,10 @@ struct MainTabView: View {
             let isPro = entitlements.contains(.proUnlimited)
             try? dependencies.quotaService.setProStatus(isActive: isPro, using: context)
         }
+        .onChange(of: selectedTab) { newTab in
+            let tabName = ["sops", "templates", "record", "settings"][newTab]
+            dependencies.metrics.track(event: .tabSwitched, properties: ["to": tabName])
+        }
     }
 }
 
@@ -105,6 +109,11 @@ struct TemplatesView: View {
                 }
                 .listStyle(.plain)
                 .searchable(text: $searchText)
+                .onChange(of: searchText) { query in
+                    if !query.isEmpty {
+                        dependencies.metrics.track(event: .searchPerformed, properties: ["query": query])
+                    }
+                }
             }
         }
         .navigationTitle("Templates")
