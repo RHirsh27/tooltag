@@ -17,6 +17,8 @@ enum MetricsEvent: String {
     case sop_generated
     case generation_latency_sample
     case error
+    case export_clicked
+    case export_success
 }
 
 struct MetricsService {
@@ -107,6 +109,14 @@ struct MetricsService {
     static func error(type: String, context: String) {
         log(.error, properties: ["error_type": type, "context": context])
     }
+    
+    static func exportClicked(format: String) {
+        log(.export_clicked, properties: ["format": format])
+    }
+    
+    static func exportSuccess(format: String) {
+        log(.export_success, properties: ["format": format])
+    }
 }
 
 // MARK: - Console Metrics Service
@@ -132,5 +142,7 @@ extension MetricsEvent {
     var sopGenerated: MetricsEvent { .sop_generated }
     var generationLatencySample: MetricsEvent { .generation_latency_sample }
     var error: MetricsEvent { .error }
+    var exportClicked: MetricsEvent { .export_clicked }
+    var exportSuccess: MetricsEvent { .export_success }
 }
 
