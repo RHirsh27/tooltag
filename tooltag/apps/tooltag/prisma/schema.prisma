@@ -1,0 +1,221 @@
+// ToolTag Prisma Schema
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ==================== Auth & Users ====================
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String?  // Hashed password (or null for magic link only)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  memberships Membership[]
+  assignments Assignment[]
+  auditLogs   AuditLog[]
+
+  @@index([email])
+}
+
+// ==================== Organizations ====================
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique // For URL-friendly org access
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  memberships   Membership[]
+  items         Item[]
+  tags          Tag[]
+  locations     Location[]
+  categories    Category[]
+  assignments   Assignment[]
+  auditLogs     AuditLog[]
+  subscriptions Subscription[]
+
+  @@index([slug])
+}
+
+model Membership {
+  id             String   @id @default(cuid())
+  userId         String
+  organizationId String
+  role           Role     @default(TECH)
+  createdAt      DateTime @default(now())
+
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, organizationId])
+  @@index([organizationId])
+  @@index([userId])
+}
+
+enum Role {
+  OWNER
+  MANAGER
+  TECH
+}
+
+// ==================== Inventory ====================
+
+model Location {
+  id             String   @id @default(cuid())
+  organizationId String
+  name           String
+  description    String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  items        Item[]
+
+  @@index([organizationId])
+}
+
+model Category {
+  id             String   @id @default(cuid())
+  organizationId String
+  name           String
+  description    String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  items        Item[]
+
+  @@index([organizationId])
+}
+
+model Item {
+  id             String     @id @default(cuid())
+  organizationId String
+  name           String
+  description    String?
+  sku            String?
+  serialNumber   String?
+  status         ItemStatus @default(AVAILABLE)
+  locationId     String?
+  categoryId     String?
+  imageUrl       String?
+  notes          String?
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+
+  organization Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  location     Location?     @relation(fields: [locationId], references: [id], onDelete: SetNull)
+  category     Category?     @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  tags         Tag[]
+  assignments  Assignment[]
+
+  @@index([organizationId])
+  @@index([status])
+  @@index([locationId])
+  @@index([categoryId])
+}
+
+enum ItemStatus {
+  AVAILABLE
+  CHECKED_OUT
+  MAINTENANCE
+  MISSING
+  RETIRED
+}
+
+model Tag {
+  id             String   @id @default(cuid())
+  organizationId String
+  itemId         String?
+  uid            String   @unique // Unique identifier encoded in QR (e.g., nanoid)
+  svgUrl         String?  // Path to generated SVG (or generate on-the-fly)
+  createdAt      DateTime @default(now())
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  item         Item?        @relation(fields: [itemId], references: [id], onDelete: SetNull)
+
+  @@index([organizationId])
+  @@index([uid])
+  @@index([itemId])
+}
+
+// ==================== Assignments (Check-Out/In) ====================
+
+model Assignment {
+  id             String    @id @default(cuid())
+  organizationId String
+  itemId         String
+  userId         String
+  checkedOutAt   DateTime  @default(now())
+  dueAt          DateTime?
+  returnedAt     DateTime?
+  notes          String?
+  photoUrl       String?   // Photo at check-out/in
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  item         Item         @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([organizationId])
+  @@index([itemId])
+  @@index([userId])
+  @@index([returnedAt]) // For finding active assignments (returnedAt IS NULL)
+}
+
+// ==================== Audit Log ====================
+
+model AuditLog {
+  id             String   @id @default(cuid())
+  organizationId String
+  actorUserId    String
+  action         String   // e.g., "create", "update", "delete", "checkout", "checkin"
+  entity         String   // e.g., "Item", "User", "Assignment"
+  entityId       String
+  diff           Json?    // Store before/after values
+  createdAt      DateTime @default(now())
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  actor        User         @relation(fields: [actorUserId], references: [id], onDelete: Cascade)
+
+  @@index([organizationId])
+  @@index([entity, entityId])
+  @@index([createdAt])
+}
+
+// ==================== Billing (Optional) ====================
+
+model Subscription {
+  id                String             @id @default(cuid())
+  organizationId    String
+  provider          String             @default("stripe")
+  status            SubscriptionStatus @default(ACTIVE)
+  plan              String?            // e.g., "free", "pro", "enterprise"
+  seats             Int                @default(1)
+  currentPeriodEnd  DateTime?
+  stripeCustomerId  String?            @unique
+  stripeSubscriptionId String?         @unique
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@index([organizationId])
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  PAST_DUE
+  CANCELED
+  TRIALING
+}
