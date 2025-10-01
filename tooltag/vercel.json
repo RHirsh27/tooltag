@@ -1,7 +1,9 @@
 {
-  "buildCommand": "cd apps/tooltag && npx prisma generate && cd ../.. && pnpm build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd apps/tooltag && npx prisma generate && pnpm build",
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": null,
-  "outputDirectory": "apps/tooltag/build"
+  "outputDirectory": "apps/tooltag/build",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ."
 }
 
