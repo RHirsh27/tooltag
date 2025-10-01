@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd apps/tooltag && pnpm install && pnpm build",
+  "outputDirectory": "apps/tooltag/build",
+  "framework": null
+}
