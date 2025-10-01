@@ -7,13 +7,20 @@
 	let metrics = $state<any>(null);
 	let loading = $state(true);
 
-	const orgId = $page.url.searchParams.get('org') || '';
+	// Get orgId from the layout data (guaranteed to exist)
+	const orgId = data.currentOrg.id;
 
 	onMount(async () => {
 		await loadMetrics();
 	});
 
 	async function loadMetrics() {
+		if (!orgId) {
+			console.error('No organization ID available');
+			loading = false;
+			return;
+		}
+
 		try {
 			const res = await fetch(`/api/organizations/${orgId}/metrics`);
 			if (res.ok) {

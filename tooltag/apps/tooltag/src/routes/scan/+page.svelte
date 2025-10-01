@@ -1,43 +1,26 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
+	import QRScanner from '$lib/components/QRScanner.svelte';
 
+	let scanner: QRScanner;
 	let scanning = $state(false);
 	let manualCode = $state('');
 	let error = $state('');
-	let stream: MediaStream | null = null;
-	let videoElement: HTMLVideoElement;
 
-	onMount(() => {
-		return () => {
-			stopCamera();
-		};
-	});
-
-	async function startCamera() {
+	function handleStartScanner() {
 		scanning = true;
 		error = '';
-
-		try {
-			stream = await navigator.mediaDevices.getUserMedia({
-				video: { facingMode: 'environment' },
-			});
-
-			if (videoElement) {
-				videoElement.srcObject = stream;
-			}
-		} catch (err: any) {
-			error = 'Camera access denied. Please enable camera permissions.';
-			scanning = false;
-		}
+		scanner?.startScanning();
 	}
 
-	function stopCamera() {
-		if (stream) {
-			stream.getTracks().forEach((track) => track.stop());
-			stream = null;
-		}
+	function handleStopScanner() {
 		scanning = false;
+		scanner?.stopScanning();
+	}
+
+	function handleQRCodeScanned(code: string) {
+		scanning = false;
+		goto(`/scan/${code}`);
 	}
 
 	function handleManualScan() {
@@ -82,25 +65,26 @@
 			<div class="card mb-6">
 				<h2 class="mb-4 text-lg font-semibold text-slate-900">Camera Scanner</h2>
 
-				{#if !scanning}
-					<button onclick={startCamera} class="btn btn-primary w-full">
-						Start Camera Scanner
-					</button>
-					<p class="mt-2 text-center text-xs text-slate-500">
-						Note: QR code scanning requires additional library (coming soon)
-					</p>
-				{:else}
-					<div class="mb-4">
-						<!-- svelte-ignore a11y_media_has_caption -->
-						<video
-							bind:this={videoElement}
-							autoplay
-							playsinline
-							class="w-full rounded-lg bg-black"
-						></video>
-					</div>
-					<button onclick={stopCamera} class="btn btn-secondary w-full"> Stop Scanner </button>
-				{/if}
+				<QRScanner bind:this={scanner} onScan={handleQRCodeScanned} />
+
+				<div class="mt-4">
+					{#if !scanning}
+						<button onclick={handleStartScanner} class="btn btn-primary w-full">
+							<svg class="mr-2 inline-block h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+							</svg>
+							Start QR Scanner
+						</button>
+						<p class="mt-2 text-center text-xs text-slate-500">
+							Point your camera at a QR code to scan automatically
+						</p>
+					{:else}
+						<button onclick={handleStopScanner} class="btn btn-secondary w-full">
+							Stop Scanner
+						</button>
+					{/if}
+				</div>
 			</div>
 
 			<!-- Manual Entry -->

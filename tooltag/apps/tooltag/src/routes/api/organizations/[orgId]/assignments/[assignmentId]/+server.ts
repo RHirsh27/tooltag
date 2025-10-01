@@ -1,6 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { db } from '$lib/server/db';
 import { requireAuth, requireRole } from '$lib/server/auth/rbac';
+import { sendCheckinNotification } from '$lib/server/email';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 
@@ -92,6 +93,7 @@ export const PATCH: RequestHandler = async ({ params, request, locals }) => {
 				include: {
 					item: true,
 					user: true,
+					organization: true,
 				},
 			}),
 			db.item.update({
@@ -109,6 +111,15 @@ export const PATCH: RequestHandler = async ({ params, request, locals }) => {
 				},
 			}),
 		]);
+
+		// Send email notification (async, don't block response)
+		sendCheckinNotification({
+			userEmail: updatedAssignment.user.email,
+			userName: updatedAssignment.user.name || updatedAssignment.user.email,
+			itemName: updatedAssignment.item.name,
+			organizationName: updatedAssignment.organization.name,
+			checkedOutAt: updatedAssignment.checkedOutAt,
+		}).catch((err) => console.error('Failed to send checkin email:', err));
 
 		return json({ assignment: updatedAssignment });
 	} catch (error) {

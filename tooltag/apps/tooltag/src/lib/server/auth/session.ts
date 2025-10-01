@@ -46,14 +46,20 @@ export async function createSession(userId: string): Promise<string> {
  * implement a Session table with token hashing.
  */
 export async function validateSession(token: string): Promise<{ user: User } | null> {
-	if (!token || token.length !== SESSION_TOKEN_LENGTH) {
+	if (!token || token.length === 0) {
 		return null;
 	}
 
 	// For MVP: decode userId from token (NOT production-ready)
 	// TODO Phase 2: Add Session table with hashed tokens
 	try {
-		const [userId, timestamp] = Buffer.from(token, 'base64').toString().split(':');
+		const decoded = Buffer.from(token, 'base64').toString();
+		const [userId, timestamp] = decoded.split(':');
+
+		if (!userId || !timestamp) {
+			return null;
+		}
+
 		const expiresAt = parseInt(timestamp, 10);
 
 		if (Date.now() > expiresAt) {

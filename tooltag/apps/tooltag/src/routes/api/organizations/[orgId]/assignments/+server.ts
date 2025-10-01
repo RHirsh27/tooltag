@@ -1,6 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { db } from '$lib/server/db';
 import { requireAuth, requireRole } from '$lib/server/auth/rbac';
+import { sendCheckoutNotification } from '$lib/server/email';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import type { Prisma } from '@prisma/client';
@@ -141,6 +142,7 @@ export const POST: RequestHandler = async ({ params, request, locals }) => {
 				include: {
 					item: true,
 					user: true,
+					organization: true,
 				},
 			}),
 			db.item.update({
@@ -158,6 +160,15 @@ export const POST: RequestHandler = async ({ params, request, locals }) => {
 				},
 			}),
 		]);
+
+		// Send email notification (async, don't block response)
+		sendCheckoutNotification({
+			userEmail: assignment.user.email,
+			userName: assignment.user.name || assignment.user.email,
+			itemName: assignment.item.name,
+			dueDate: assignment.dueAt || undefined,
+			organizationName: assignment.organization.name,
+		}).catch((err) => console.error('Failed to send checkout email:', err));
 
 		return json({ assignment }, { status: 201 });
 	} catch (error) {

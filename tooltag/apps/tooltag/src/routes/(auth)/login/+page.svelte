@@ -6,7 +6,8 @@
 	let loading = $state(false);
 	let error = $state('');
 
-	async function handleLogin() {
+	async function handleLogin(e: Event) {
+		e.preventDefault();
 		loading = true;
 		error = '';
 
@@ -21,14 +22,15 @@
 
 			if (!res.ok) {
 				error = data.error || 'Login failed';
+				loading = false;
 				return;
 			}
 
-			// Redirect to dashboard
-			goto('/dashboard');
+			// Redirect to dashboard - using window.location for full page reload
+			window.location.href = '/dashboard';
 		} catch (err) {
+			console.error('Login error:', err);
 			error = 'Network error. Please try again.';
-		} finally {
 			loading = false;
 		}
 	}

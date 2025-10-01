@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- ToolTag Orange Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#F26A1B"/>
+  
+  <!-- Wrench Icon in White -->
+  <g fill="#FFFFFF">
+    <!-- Wrench handle -->
+    <rect x="35" y="55" width="8" height="35" rx="2" transform="rotate(-45 39 72.5)"/>
+    
+    <!-- Wrench head -->
+    <path d="M 55 30 L 65 40 L 63 42 L 60 39 L 55 44 L 50 39 L 55 34 L 52 31 Z"/>
+    
+    <!-- Bolt/nut at top -->
+    <circle cx="62" cy="33" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+</svg>
+

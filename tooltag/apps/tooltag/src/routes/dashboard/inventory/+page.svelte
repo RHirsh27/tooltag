@@ -22,7 +22,7 @@
 	const orgId = $page.url.searchParams.get('org') || '';
 	const canManage = data.currentRole !== 'TECH';
 
-	let fileInput: HTMLInputElement;
+	let fileInput = $state<HTMLInputElement>();
 	let importing = $state(false);
 
 	onMount(async () => {
@@ -117,7 +117,7 @@
 	}
 
 	function triggerImport() {
-		fileInput.click();
+		fileInput?.click();
 	}
 
 	async function handleImport(e: Event) {

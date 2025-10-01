@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
+	import FileUpload from '$lib/components/FileUpload.svelte';
 
 	let { data } = $props();
 
@@ -18,6 +19,7 @@
 		status: 'AVAILABLE',
 		locationId: '',
 		categoryId: '',
+		imageUrl: '',
 		notes: '',
 	});
 
@@ -161,6 +163,15 @@
 						{/each}
 					</select>
 				</div>
+			</div>
+
+			<div>
+				<FileUpload
+					currentImage={form.imageUrl}
+					onUpload={(url) => {
+						form.imageUrl = url;
+					}}
+				/>
 			</div>
 
 			<div>

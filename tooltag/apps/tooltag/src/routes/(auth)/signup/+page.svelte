@@ -7,7 +7,8 @@
 	let loading = $state(false);
 	let error = $state('');
 
-	async function handleSignup() {
+	async function handleSignup(e: Event) {
+		e.preventDefault();
 		loading = true;
 		error = '';
 
