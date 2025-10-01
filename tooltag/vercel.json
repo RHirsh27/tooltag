@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd apps/tooltag && npx prisma generate && cd ../.. && pnpm build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null,
+  "outputDirectory": "apps/tooltag/build"
+}
+
