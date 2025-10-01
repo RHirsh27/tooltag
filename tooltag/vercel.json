@@ -1,9 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "pnpm install && pnpm --filter tooltag build",
-  "devCommand": "pnpm --filter tooltag dev",
-  "installCommand": "pnpm install",
-  "outputDirectory": "apps/tooltag/build",
-  "framework": null
-}
-
