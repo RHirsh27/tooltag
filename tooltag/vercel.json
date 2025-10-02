@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd apps/tooltag && pnpm install && pnpm prisma generate && pnpm vite build",
+  "outputDirectory": "apps/tooltag/build",
+  "installCommand": "pnpm install",
+  "framework": null
+}
