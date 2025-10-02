@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm install && cd apps/tooltag && npx prisma generate && pnpm build",
+  "buildCommand": "pnpm install && pnpm --filter tooltag build",
   "outputDirectory": "apps/tooltag/build",
   "framework": null
 }
